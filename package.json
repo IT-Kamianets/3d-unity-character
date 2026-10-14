@@ -1,0 +1,19 @@
+{
+  "name": "com.itkamianets.3d-unity-character",
+  "version": "0.1.0",
+  "displayName": "IT-Kamianets 3D Engine: Unity Character",
+  "description": "Reusable player character for any camera style: walking, running, jumping, crouching, ground detection, slopes and steps. Driven by a movement command, so controls, AI and the network can all move it.",
+  "unity": "6000.6",
+  "license": "MIT",
+  "author": {
+    "name": "IT Kamianets"
+  },
+  "keywords": [
+    "3d-engine",
+    "it-kamianets"
+  ],
+  "dependencies": {
+    "com.itkamianets.3d-unity-core": "0.1.0",
+    "com.unity.modules.physics": "1.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ITKamianets.Engine.Character.Tests",
+    "rootNamespace": "ITKamianets.Engine.Character.Tests",
+    "references": [
+        "ITKamianets.Engine.Character",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

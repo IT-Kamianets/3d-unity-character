@@ -1,0 +1,16 @@
+{
+    "name": "ITKamianets.Engine.Character",
+    "rootNamespace": "ITKamianets.Engine.Character",
+    "references": [
+        "ITKamianets.Engine.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
