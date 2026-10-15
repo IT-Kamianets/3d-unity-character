@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `IAimSource`: an aim ray for gameplay, e.g. a VR hand.
+
+### Added
+
+- `CharacterAnimator`: movement → standard Animator parameters.
+
+### Added
+
 - Initial Unity package structure (`Runtime`, `Editor`, `Tests` assemblies).
 - `CharacterMotor`: command-driven movement on `CharacterController` — walk, sprint, crouch, jump (coyote time, jump buffer), slopes, steps, steep-slope sliding.
 - `CharacterCommand`, `CharacterSettings`, `CharacterState` (`GetState`/`SetState`), `Teleport`.

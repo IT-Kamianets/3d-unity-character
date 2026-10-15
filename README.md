@@ -27,7 +27,9 @@ Version 0.1: `CharacterMotor` on Unity's `CharacterController`.
 * Steps up to a set height
 * Crouching that stays crouched until there is room to stand; eye height eases between the two
 * `Teleport` for spawns; `GetState`/`SetState` (including jump timers) for network correction; `ConsumeCommand` for fixed-tick stepping
+* `CharacterAnimator`: feeds the movement to the model's Animator as `Forward`, `Right`, `Speed`, `Grounded`, `Crouching`, `VerticalSpeed` (skips parameters the controller lacks); reads the motor's state, so network copies animate too; no root motion
 * Steps itself in Update by default; turn `SimulateInUpdate` off to drive it with a fixed tick
+* `IAimSource`: where a character aims (a VR hand, a turret barrel); gameplay asks the enabled one and falls back to its own default (e.g. the screen centre)
 
 Checked in Play mode on test geometry: 1.26 m jump for a 1.2 m setting, walks onto a 0.3 m step at full speed, stays crouched under a 1.4 m ceiling and stands after leaving it, slides off a 60° ramp.
 
