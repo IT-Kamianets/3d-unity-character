@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- The character can walk at a high frame rate: the body no longer ignores steps shorter than the controller's default minimum move distance, which kept it standing still above about 300 frames a second.
+
 ### Added
 
 - `IAimSource`: an aim ray for gameplay, e.g. a VR hand.

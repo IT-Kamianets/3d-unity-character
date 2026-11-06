@@ -400,6 +400,9 @@ namespace ITKamianets.Engine.Character
             _controller.center = Vector3.up * (height * 0.5f);
             _controller.slopeLimit = settings.SlopeLimit;
             _controller.stepOffset = Mathf.Min(settings.StepHeight, height - settings.Radius * 2f);
+            // The controller ignores steps shorter than this (1 mm by default). At a high frame rate the first steps of a walk are shorter
+            // than that, so the character would never get going: with 40 m/s² and 470 frames a second a step is 0.2 mm.
+            _controller.minMoveDistance = 0f;
         }
     }
 }
